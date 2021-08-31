@@ -1,10 +1,10 @@
 class Pmm < Formula
   desc "Package manager manager"
   homepage "https://github.com/kdb424/pmm"
-  url "https://github.com/kdb424/pmm/archive/refs/tags/0.4.0.tar.gz"
-  sha256 "de8c36d55c2726c917cb73f6646f8981831a139cc8f6e0bc0eab11bf89143c4d"
+  url "https://github.com/kdb424/pmm/archive/refs/tags/0.4.1.tar.gz"
+  sha256 "0ddb91d542a50a239e37fb0ce43752e4d0cdd80e42499be04906c0442d882109"
   license "MIT"
-  head "https://github.com/kdb424/pmm.git", branch: "main", tag: "0.4.0"
+  head "https://github.com/kdb424/pmm.git", branch: "main", tag: "0.4.1"
 
   depends_on "nim" => :build
 
